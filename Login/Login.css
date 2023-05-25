@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{
+	background: url("../G4L Site/pexels-lucie-liz-3165335.jpg");
+	background-size: cover;
+}
+.a{
+	width: 100px;
+	height: 100px;
+	
+	position: absolute;
+	top: -50px;
+	left: 100px;
+
+}
+.b{
+	width: 320px;
+	height: 420px;
+	background: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px;
+}
+.b input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.b input[type="username"],input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline:none;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.b button{
+	border: none;
+	background: #000000;
+	outline: none;
+	width: 200px;
+	height: 40px;
+	color: #FFFFFF;
+	font-size:16px;
+	border-radius:20px;  
+}
+.b button:hover{
+	cursor:pointer;
+	background:#0005FF;
+	color:#000000;
+}
+.b a{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color: aliceblue;
+}
+.b a:hover{
+	color: #0005FF;
+}
+
+
